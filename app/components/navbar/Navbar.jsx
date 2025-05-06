@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import AddMoneyIcon from "./icons/AddMoneyIcon";
-import VoucherIcon from "./icons/VoucherIcon";
-import SupportIcon from "./icons/SupportIcon";
+import AddMoneyIcon from "../icons/AddMoneyIcon";
+import VoucherIcon from "../icons/VoucherIcon";
+import SupportIcon from "../icons/SupportIcon";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 flex items-center justify-between w-full h-[94px] bg-[#0C0A09] px-16 py-6">
+    <div className="flex items-center justify-between w-full h-[94px] bg-[#0C0A09] px-16 py-6">
       <div className="flex w-1/2">
         <div className="max-w-[200px] max-h-[100px]">
           <Image
